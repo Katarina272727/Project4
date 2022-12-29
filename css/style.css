@@ -1,0 +1,40 @@
+header {
+    background-color: pink;
+    margin: 0%;
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.films { 
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 100vh;
+ 
+} 
+ 
+.box-1 { 
+    width: 400px; 
+    background-color: rgb(213, 106, 190); 
+    height: 300px; 
+    
+} 
+ 
+.box-1 img { 
+    width: 200px; 
+    height: 150px; 
+}
+
+.text_block{
+    flex-wrap: nowrap;
+    font-size: small;
+
+}
+
+
+
